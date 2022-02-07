@@ -8,7 +8,7 @@ symbols = "{}[]-_+()*/"
 
 all = lower + upper + numbers + symbols
 
-length = 50
+length = 16
 password = "".join (random.sample(all,length))
 
 print(password)
